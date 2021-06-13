@@ -8,5 +8,6 @@ $DFL_PYTHON "$DFL_SRC/main.py" train \
     --model-dir "$DFL_WORKSPACE/model" \
     --model SAEHD \
     --force-model-name DFD224F \
+    --cpu-only False \
     --force-gpu-idxs 0
 
